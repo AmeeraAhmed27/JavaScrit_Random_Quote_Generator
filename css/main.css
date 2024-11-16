@@ -1,0 +1,28 @@
+body{
+  background-color: aliceblue;
+}
+h1{
+  font-family: "Amatic SC", sans-serif;
+  font-size: 70px;
+  color: blueviolet;
+}
+
+.my-card{
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.my-btn{
+  background-color: blueviolet;
+  border-color: blueviolet;
+}
+
+.my-span{
+  color: blueviolet;
+}
+
+.btn-primary:hover{
+  background-color: rgb(159, 63, 248) !important;
+  border-color: blueviolet;
+
+}

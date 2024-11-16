@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="d-flex flex-column justify-content-center align-items-center mt-5">
+        <h1><i class="fa-solid fa-quote-left me-3"></i>Quote of the Day</h1>
+        <p class="fw-bold">Press the button below to recieve a random quote!</p>
+        <div class="p-5 m-4 text-center my-card">
+            <p id="quote" class="fw-medium">"So many books, so little time."</p>
+            <p id="author"><span class="my-span">**</span>Frank Sinatra</p>
+        </div>
+    
+        <button onclick="generateQuote();" class="btn btn-primary my-btn"><i class="fa-solid fa-shuffle p-2"></i>New Quote</button>
+
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
